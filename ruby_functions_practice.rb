@@ -56,3 +56,17 @@ end
 def number_to_short_month_name(number)
   return number_to_full_month_name(number)[0..2]
 end
+
+def cube_volume(length)
+  return length**3
+end
+
+def volume_of_sphere(r)
+  result =  (4/3.to_f) * Math::PI * r**3
+  return result.round(2)
+end
+
+def fahrenheit_to_celsius(temperature)
+  result = (temperature - 32) * (5/9.to_f)
+  return result.round(2)
+end
